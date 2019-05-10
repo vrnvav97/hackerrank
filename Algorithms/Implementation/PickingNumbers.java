@@ -16,13 +16,13 @@ class PickingNumbers
 		{
 			
 			al.add(a[i]);
-			//System.out.println ("initially ArrayList " + al);
+			
 			for (int j=0;j<n;++j)
 			{	
 				
 				if (j!=i)
 				{
-					//System.out.println ("Checking element " + a[j]);
+					
 					boolean f = false;
 					for (int k =0;k<al.size();++k)
 					{	
