@@ -17,12 +17,12 @@ class MigratoryBirds
 		
 
 		int mainCount=a[0],id=1;
-		//System.out.println ("value mainCount initially " + mainCount);
+		
 		for (int i=0;i<5;++i)
 		{
 			if (a[i] > mainCount)
 			{
-			//	System.out.println ("Value of mainCount changed " + mainCount);
+			
 				mainCount = a[i];
 				id = i+1;
 			}
